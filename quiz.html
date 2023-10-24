@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style9.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz Title</h1>
+        <div id="question-container">
+            <p id="question">Question goes here</p>
+            <p>Time Left: <span id="timer">30</span> seconds</p>
+
+            <ul id="choices">
+                <li><input type="radio" name="choice" value="Choice 1"> Choice 1</li>
+                <li><input type="radio" name="choice" value="Choice 2"> Choice 2</li>
+                <li><input type="radio" name="choice" value="Choice 3"> Choice 3</li>
+            </ul>
+            <button onclick="nextQuestion()">Next</button>
+        </div>
+        <div id="result-container">
+            <p>Score: <span id="score">0</span></p>
+        </div>
+    </div>
+
+    <script src="scriptt.js"></script>
+</body>
+</html>
